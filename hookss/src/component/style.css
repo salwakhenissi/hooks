@@ -1,0 +1,66 @@
+.Card {
+    width: 250px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 8px;
+    border: groove;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+  }
+  
+  .Card:hover {
+    box-shadow: 3px 3px 3px 3px #9b9b9b;
+  }
+  
+  .list-movie {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    width: 200px;
+    height: 300px;
+    border-radius: 4px;
+  }
+  input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 7px;
+    border-radius: 6px;
+    background: transparent;
+    border: 3px solid;
+  }
+  
+  .header {
+    display: flex;
+  
+    justify-content: space-around;
+  }
+  
+  button {
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgba(4, 94, 211, 0.726);
+    margin-top: 40px;
+  }
+  button:hover {
+    background-color: rgba(4, 94, 211, 0.726);
+  }
+  span {
+    color: rgb(151, 33, 3);
+  }
+  
+  .searchName {
+    margin-top: 40px;
+    padding: 8px;
+    margin-left: 20px;
+  }
